@@ -1,0 +1,134 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    z-index: 1000;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    height:24px;
+    margin-left: 20px;
+    margin-right: 24px;
+}
+.youtube-logo{
+    height: 24px;
+}
+.middle-section{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+.search-bar{
+    height: 36px;
+    flex:1;
+    font-size: 16px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+.search-bar::placeholder{
+    font-family: Robot,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.search-button{
+height: 40px;
+width: 60px;
+background-color: rgb(240,240,240);
+border-width: 1px;
+border-style: solid;
+border-color: grey;
+margin-left: -1px;
+margin-right: 10px;
+position: relative;
+}
+
+.search-button .tooltip{
+
+    background-color: grey;
+    color:white;
+    position: absolute;
+    bottom:-30px;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius: 2px;
+    font-size:12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+.voice-search-button{
+height: 40px;
+width: 40px ;
+border-radius: 20px;
+border:none;
+background-color: rgb(233, 231, 231);
+}
+.voice-search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+.right-section{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.upload-icon{
+    height: 24px;
+}
+.apps-icon{
+    height: 24px;
+}
+.notifications-icon{
+    height: 24px;
+}
+.profile-picture{
+    height: 32px;
+    border-radius: 16px;
+}
+.notifications-icon-container{
+    position: relative;
+}
+.notification-badge{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

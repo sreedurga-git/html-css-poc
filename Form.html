@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/button.css">
+        <style>
+        .pickup, .destination {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .btn-req-now{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            border: none;
+        }
+        .btn-sch-later{
+            background-color: rgb(187, 187, 187);
+            color: black;
+            padding: 5px;
+            border: none;
+        }
+        .thumbmail-container {
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+        }
+        .thumbmail-container img {
+            width: 200px;       /* desired display width */
+            height: 120px;      /* desired display height */
+            object-fit: cover;  /* cover = fill & crop, contain = fit with letterbox */
+        /*     display: block;*/
+        /*  
+           margin: 0 auto;*/
+        }
+        .thumbmail-container{
+             display: inline-block;
+        }
+        .video-profile {
+            display: inline-block;
+            border-radius: 35px;
+            vertical-align: top;
+        }
+        .video-title{
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .channel-name{
+
+        }
+        .video-stats{
+
+        } 
+        .video-grid{
+            display: inline-block;
+            margin-left: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h2>Request a ride now</h2>
+            <input type="text" class="pickup" placeholder="Enter pickup location">
+            <input type="text" class="destination" placeholder="Enter destination">
+            <button class="btn-req-now">Request now</button>
+            <button class="btn-sch-later">Schedule for later</button>
+        </div>
+        <br><br>
+        <div>
+            <input type="text" class="fName" placeholder="First Name">
+            <input type="text" class="fName" placeholder="Last Name">
+            <input type="email" class="email" placeholder="Email">
+            <button class="btn-signUp">Sign Up</button>
+        </div>
+
+
+        <div class="thumbmail-container">
+                <img src="thumbnail/thumbnail-1.webp" alt="Car Image" width="200px">
+        </div>
+        <div class="video-tiles">
+            <img class="video-profile" src="profile/channel-1.jpeg" alt="Car Image" width="30px">
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai! </p>
+            <p class="channel-name">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+        </div>
+
+
+        <div class="car-tiles">
+           <img src="img/car1.jpg" alt="Car Image" width="200px">
+           <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai! </p>
+           <p class="channel-name"></p>
+           <p class="video-stats"></p>
+        </div>
+        <div class="car-tiles">
+           <img src="img/car1.jpg" alt="Car Image" width="200px">
+           <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai! </p>
+           <p class="channel-name"></p>
+           <p class="video-stats"></p>
+        </div> 
+    </body>
+</html>

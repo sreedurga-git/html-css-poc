@@ -1,0 +1,72 @@
+
+    .btn-sub {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border-radius: 2px;
+        height: 37px;
+        width: 105px;
+        border: none;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.3s;
+    }
+    .btn-sub:hover{
+        opacity: 0.8;
+    }
+    .btn-sub:active{
+         opacity: 0.4;
+    }
+    .btn-join{
+        color: rgb(0, 115, 255);
+        border:rgb(0, 115, 255)  1px solid;
+        height: 37px;  
+        width: 50px;
+        cursor: pointer;
+        border-radius: 2px;
+
+    }
+    .btn-tweet{
+        background-color: rgb(0, 153, 255);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        height: 37px;
+        width: 75px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+       transition: box-shadow 0.3s;
+    }
+     .btn-tweet:hover{
+      box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.8);
+    }
+    .div-class{
+        margin-top: 15px;
+    }
+    .btn-one{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: green;
+        color: white;
+        border:none;
+        /*transition: margin-left 0.15s;*/
+        
+    }
+    .btn-one:hover{
+       /* margin-left: 5px;
+        margin-right: 5px;*/
+        box-shadow: 0 0 0 5px green; 
+      
+    }
+    .btn-two{
+        padding: 5px 10px;
+    }
+    .btn-three{
+        padding: 5px 10px;
+    }
+    .div-class{
+        font-family: Montserrat ,Georgia, 'Times New Roman', Times, serif;
+    }

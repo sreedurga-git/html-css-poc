@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .grid-class{
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .grid-class1{
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+        .grid-class2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+            margin-top: 20px;
+        }
+        </style>
+    </head>
+
+    <body>
+<div class="grid-class">  
+    <div style="background-color: lightgrey;">
+        This is nested div sample text1.
+    </div>
+    <div style="background-color: lightcoral;">
+        This is nested div sample text2.
+    </div>
+</div>
+
+<div class="grid-class1">  
+    <div style="background-color: lightgrey;">
+        50px
+    </div>
+    <div style="background-color: lightcoral;">
+        Remainig space
+    </div>
+    <div style="background-color: rgb(95, 157, 246);">
+        75px
+    </div>
+</div>
+
+<div class="grid-class2">  
+    <div style="background-color: lightgrey;">
+        50px
+    </div>
+    <div style="background-color: lightcoral;">
+        Remainig space
+    </div>
+    <div style="background-color: rgb(95, 157, 246);">
+        75px
+    </div>
+    <div style="background-color: rgb(176, 67, 161);">
+        75px
+    </div>
+        <div style="background-color: lightgrey;">
+        50px
+    </div>
+    <div style="background-color: lightcoral;">
+        Remainig space
+    </div>
+    <div style="background-color: rgb(95, 157, 246);">
+        75px
+    </div>
+    <div style="background-color: rgb(176, 67, 161);">
+        75px
+    </div>
+</div>
+    </body>
+</html>
